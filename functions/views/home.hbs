@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <body>
+      
+   <button type="button" onclick="func1()">Sign in</button>
+   <button type="button" onclick="func2()">Sign out</button>
+
+   <p>This page <a href="/newPage">(click here)</a> only loads if you are signed-in,
+    else you will we redirected to login </p>
+
+    <script>
+        function func1() {
+            window.location.href = '/signin';
+        };
+
+        function func2() {
+            window.location.href = '/signout';
+        };
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>new Page</title>
+  </head>
+  <body>
+      
+    <p>This page only loads if you are signed in</p>
+
+    <p>User UID = {{uid}}</p>
+
+    <button onclick="func2()">Home</button>
+    <button onclick="func1()">Logout</button>
+
+    <script>
+        function func2() {
+            window.location.href = '/';
+        };
+        function func1() {
+            window.location.href = '/signout';
+        };
+    </script>
+
+  </body>
+</html>
