@@ -10,5 +10,8 @@
       "source": "**",
       "function": "app"
     }]
+  },
+   "functions": {
+    "runtime": "nodejs10"
   }
 }
